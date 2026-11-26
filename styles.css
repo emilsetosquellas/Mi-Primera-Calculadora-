@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     /* Tema Azul (por defecto) */
     --bg-calc: #48bfff;
@@ -84,6 +85,9 @@
 }
 
 * {
+=======
+*{
+>>>>>>> f6a9e3032177c623f07723368a67a8d328113250
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -95,6 +99,7 @@ body {
     background-color: #232323;
     display: grid;
     place-items: center;
+<<<<<<< HEAD
     padding: 1rem;
 }
 
@@ -180,6 +185,13 @@ body {
 .calculadora {
     background-color: var(--bg-calc);
     color: var(--texto-btn);
+=======
+}
+
+.calculadora { /* . class */
+    background-color: #48bfff;
+    color: white;
+>>>>>>> f6a9e3032177c623f07723368a67a8d328113250
     width: 350px;
     max-width: 100%;
     padding: 1.5rem;
@@ -187,14 +199,22 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: .5rem;
+<<<<<<< HEAD
     box-shadow: 0 0 20px var(--sombra-calc);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+=======
+    box-shadow: 0 0 20px #48bfff;
+>>>>>>> f6a9e3032177c623f07723368a67a8d328113250
 }
 
 .pantalla {
     grid-column: 1 / 5;
+<<<<<<< HEAD
     background-color: var(--bg-pantalla);
     color: var(--texto-pantalla);
+=======
+    background-color: #090c31;
+>>>>>>> f6a9e3032177c623f07723368a67a8d328113250
     padding: 1.5rem;
     font-size: 2rem;
     text-align: right;
@@ -202,6 +222,7 @@ body {
     margin-bottom: 1.5rem;
     font-family: monospace;
     font-weight: bold;
+<<<<<<< HEAD
     overflow: hidden;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -209,12 +230,20 @@ body {
 .btn {
     background-color: var(--bg-btn);
     color: var(--texto-btn);
+=======
+}
+
+.btn {
+    background-color: #006da7;
+    color: white;
+>>>>>>> f6a9e3032177c623f07723368a67a8d328113250
     border: 0;
     padding: 1.5rem .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: .5rem;
+<<<<<<< HEAD
     cursor: pointer;
     font-size: 1.1rem;
     transition: background-color 0.2s ease;
@@ -222,11 +251,19 @@ body {
 
 .btn:hover {
     background-color: var(--bg-btn-hover);
+=======
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color: #004f78;
+>>>>>>> f6a9e3032177c623f07723368a67a8d328113250
 }
 
 #cero {
     grid-column: span 2;
 }
+<<<<<<< HEAD
 
 #igual {
     grid-row: span 2;
@@ -237,3 +274,12 @@ body {
 #igual:hover {
     background-color: var(--bg-igual-hover);
 }
+=======
+#igual {
+    grid-row: span 2;
+    background-color: #e65766;
+}
+#igual:hover {
+    background-color: #e6394a;
+}
+>>>>>>> f6a9e3032177c623f07723368a67a8d328113250
