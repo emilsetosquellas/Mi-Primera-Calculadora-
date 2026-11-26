@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="contenedor-app">
+        <main class="calculadora">
+            <output class="pantalla">0</output>
+            <button class="btn" id="c">C</button>
+            <button class="btn" id="borrar">←</button>
+            <button class="btn">/</button>
+            <button class="btn">*</button>
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn">-</button>
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">+</button>
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn" id="igual">=</button>
+            <button class="btn" id="cero">0</button>
+            <button class="btn">.</button>
+        </main>
+
+        <aside class="panel-temas">
+            <p class="titulo-temas">Temas</p>
+            <nav class="fila-temas" aria-label="Selector de temas">
+                <button class="btn-tema activo" data-tema="azul" aria-label="Tema azul"></button>
+                <button class="btn-tema" data-tema="blanco" aria-label="Tema blanco"></button>
+                <button class="btn-tema" data-tema="negro" aria-label="Tema negro"></button>
+                <button class="btn-tema" data-tema="rosa" aria-label="Tema rosa"></button>
+                <button class="btn-tema" data-tema="verde" aria-label="Tema verde"></button>
+                <button class="btn-tema" data-tema="morado" aria-label="Tema morado"></button>
+                <button class="btn-tema" data-tema="naranja" aria-label="Tema naranja"></button>
+            </nav>
+        </aside>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
